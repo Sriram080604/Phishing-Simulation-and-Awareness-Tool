@@ -20,5 +20,5 @@ This project demonstrates a phishing simulation designed for educational purpose
    git clone <repository-url>
    cd phishing-simulation
 
-Ethical Disclaimer
+## Ethical Disclaimer
 This project is for educational purposes only. Unauthorized or unethical use is strictly prohibited.
