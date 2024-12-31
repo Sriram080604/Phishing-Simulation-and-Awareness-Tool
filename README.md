@@ -20,5 +20,25 @@ This project demonstrates a phishing simulation designed for educational purpose
    git clone <repository-url>
    cd phishing-simulation
 
+## Requirements
+Here's the requirements.txt file for your project:
+
+plaintext
+Copy code
+Flask==2.3.2
+pyngrok==5.2.2
+email-validator==1.3.1
+
+Notes:
+Flask: For the fake phishing login page.
+pyngrok: To expose the local server publicly.
+email-validator: Ensures proper handling of email addresses in your project.
+
+To install these dependencies, users can run:
+bash
+Copy code
+pip install -r requirements.txt
+
+
 ## Ethical Disclaimer
 This project is for educational purposes only. Unauthorized or unethical use is strictly prohibited.
